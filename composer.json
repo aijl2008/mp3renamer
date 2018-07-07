@@ -1,0 +1,19 @@
+{
+  "name": "aijl2008/mp3renamer",
+  "authors": [
+    {
+      "name": "Jerry",
+      "email": "awz@awz.cn"
+    }
+  ],
+  "require": {
+    "symfony/console": "^3.3",
+    "symfony/var-dumper": "^3.3",
+    "james-heinrich/getid3": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
